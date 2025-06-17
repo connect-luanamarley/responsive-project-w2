@@ -1,15 +1,43 @@
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
     url("images/welcomesydney.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
+  padding: 255px 0;
 }
 
 h1 {
@@ -17,5 +45,9 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
-  line-height: 144px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
