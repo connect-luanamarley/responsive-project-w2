@@ -1,28 +1,54 @@
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+}
+
 header a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  letter-spacing: 5px;
+  color: #272044;
+  padding: 14px 28px;
+  letter-spacing: 3px;
   text-transform: uppercase;
+  background: white;
+  text-decoration: none;
+  display: inline-block;
 }
 
 header h3 {
   font-weight: 900;
   font-size: 24px;
   line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
 }
 
 header h2 {
   font-weight: 400;
   font-size: 40px;
   line-height: 1.5;
+  margin: 0;
 }
 
 header h1 {
   font-weight: 700;
   font-size: 96px;
   line-height: 144px;
+  margin: 0;
 }
 
 .container {
@@ -37,7 +63,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 255px 0;
+  padding: 200px 0;
 }
 
 h1 {
