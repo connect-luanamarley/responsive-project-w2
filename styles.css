@@ -61,7 +61,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 900px) {
+footer {
+  background-image: url("../images/footersydney.jpg");
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
