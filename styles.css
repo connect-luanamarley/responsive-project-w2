@@ -62,7 +62,21 @@ body {
 }
 
 footer {
-  background-image: url("../images/footersydney.jpg");
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("images/footersydney.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 @media (max-width: 960px) {
