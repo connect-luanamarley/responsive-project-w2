@@ -73,6 +73,10 @@ header h1 {
   padding: 30px;
 }
 
+.card-footer {
+  padding: 0 20px 20px;
+}
+
 .btn {
   display: block;
   color: white;
@@ -84,7 +88,6 @@ header h1 {
   background-color: #272044;
   text-decoration: none;
 }
-
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
@@ -210,6 +213,7 @@ main h4 {
   font-size: 24px;
   line-height: 1.5;
   color: #272044;
+  margin: 0;
 }
 
 main h5 {
@@ -217,6 +221,7 @@ main h5 {
   font-size: 14px;
   line-height: 1.5;
   color: #272044;
+  margin: 0;
 }
 
 main p {
