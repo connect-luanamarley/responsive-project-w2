@@ -39,6 +39,10 @@ header h1 {
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -67,9 +71,14 @@ header {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 80px;
+}
+
+section.secondary {
+  background: #f8f8f8;
+  margin: 0;
 }
 
 h1 {
@@ -143,13 +152,12 @@ footer a {
 
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px
+    grid-gap: 32px;
   }
 
   section {
     padding: 30px;
   }
-
 }
 
 main h2 {
