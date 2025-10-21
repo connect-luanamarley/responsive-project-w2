@@ -54,6 +54,11 @@ header h1 {
   object-fit: cover;
   display: block;
 }
+.img-responsive-one {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
